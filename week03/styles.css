@@ -1,0 +1,92 @@
+html, body{
+   /* background-color: linear-gradient 
+   background: rgb(148,147,161);
+    background: linear-gradient(90deg, rgba(148,147,161,1) 0%, rgba(194,194,224,0.2182459677419355) 35%, rgba(0,212,255,1) 100%);
+    */
+    display: block;
+    background: rgb(148,147,161);
+   /* background: linear-gradient( rgba(148,147,161,1) 0%, rgba(154,154,187,0.2182459677419355) 35%, rgba(0,212,255,1) 100%);
+   */
+   background: linear-gradient(rgba(148,147,161,1) 0%, rgba(154,154,187,0.2182459677419355) 12.7%, rgba(0,212,255,1) 100%);
+}
+
+.rose{
+    color: #C02E4C;
+    text-align: center;
+}
+
+.rose span{
+    position: relative;
+    top: 5px;
+    left:25px;
+}
+
+.shelf span{
+    color: white;
+    background-color: #6A1616;
+}
+
+#summer{
+    background-color: #31C565;
+}
+
+.lamp, .rose, .shelf, .summer, .together{
+    /*padding: 25%;*/
+    /*margin: 30%;*/
+    margin: 0 auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    width: 470px;
+}
+
+.shelf{
+    margin: 35%;
+}
+
+.lamp span{
+    color: #31C565;
+}
+
+.lamp div{
+    /*margin-right: 735px;*/
+   
+    /*margin-right: 155px;*/
+    /*padding-right: 200px;*/
+    /*width: 460px;*/
+   
+
+    background: linear-gradient(rgba(236,255,0,0.22172619047619047) 33%, rgba(0,212,255,1) 100%);
+}
+.summer{
+    padding: 200px;
+    background: rgb(0,212,255);
+    background: linear-gradient(rgba(0,212,255,1) 50%, rgba(145,255,153,1) 83%, rgba(33,212,47,1) 100%);
+    text-align: center;
+}
+.summer span{
+    position: relative;
+    right: 210px;
+    bottom: 200px;
+    color: yellow;
+    background-color:rgb(255,255,0, 0.1);
+}
+.together{
+    position: relative;
+    bottom: 400px;
+    right: 50px;
+    text-align: center;
+}
+
+.together span{
+    position: relative;
+    left: 250px;
+    bottom: 200px;
+    
+}
+
+h3{
+    position: relative;
+    left: 1000px;
+    bottom: 800px;
+    
+}
