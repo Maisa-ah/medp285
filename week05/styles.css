@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Martel&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
+
+html, body{
+   /* background-color: linear-gradient 
+   background: rgb(148,147,161);
+    background: linear-gradient(90deg, rgba(148,147,161,1) 0%, rgba(194,194,224,0.2182459677419355) 35%, rgba(0,212,255,1) 100%);
+    */
+    display: block;
+    background: rgb(148,147,161);
+   /* background: linear-gradient( rgba(148,147,161,1) 0%, rgba(154,154,187,0.2182459677419355) 35%, rgba(0,212,255,1) 100%);
+   */
+   background: linear-gradient(rgba(148,147,161,1) 0%, rgba(154,154,187,0.2182459677419355) 10%, rgba(0,212,255,1) 100%);
+}
+
+.six{
+    font-family: 'Monoton', cursive;
+    font-size: 60px;
+}
+
+.story{
+    font-family: 'Martel', serif;
+    font-size:12px;
+    padding-left: 40%;
+}
+
+
+.rose{
+    color: #C02E4C;
+    text-align: center;
+    position: relative;
+    float:center;
+    bottom:650px;
+    left:250px;
+    margin-left:20px;
+
+}
+/*
+.rose span{
+    position: relative;
+    top: 5px;
+    padding-left:25px;
+}*/
+
+.shelf span{
+    color: white;
+    background-color: #6A1616;
+}
+
+#summer{
+    background-color: #31C565;
+}
+
+.lamp, .rose, .shelf, .summer, .together{
+    /*padding: 25%;*/
+    /*margin: 30%;*/
+    margin: 0 auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    width: 470px;
+}
+
+.shelf{
+    margin: 40%;
+}
+
+.lamp span{
+    color: #31C565;
+}
+
+.lamp div{
+    /*margin-right: 735px;*/
+   
+    /*margin-right: 155px;*/
+    /*padding-right: 200px;*/
+    /*width: 460px;*/
+   
+
+    background: linear-gradient(rgba(236,255,0,0.22172619047619047) 33%, rgba(0,212,255,1) 100%);
+}
+.summer{
+    padding: 200px;
+    background: rgb(0,212,255);
+    background: linear-gradient(rgba(0,212,255,1) 50%, rgba(145,255,153,1) 83%, rgba(33,212,47,1) 100%);
+    text-align: center;
+}
+.summer span{
+    position: relative;
+    right: 210px;
+    bottom: 200px;
+    color: yellow;
+    background-color:rgb(255,255,0, 0.1);
+}
+.together{
+    position: relative;
+    bottom: 400px;
+    right: 50px;
+    text-align: center;
+}
+
+.together span{
+    position: relative;
+    left: 250px;
+    bottom: 200px;
+    
+}
+
+h3{
+    position: relative;
+    padding-left: 1000px;
+    bottom: 800px;
+    
+}
+.helper{
+    padding:200px;
+}
+.try{
+    float:center;
+    margin:50px;
+    border: 5px solid #C02E4C;
+    border-radius: 43%;
+    /*position: absolute;*/
+    padding-bottom:5%;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color:  #C02E4C;
+    height: 50px;
+    width: 50px;
+
+}
+.try div{
+    border: 5px solid rgb(216, 73, 101);
+    border-radius: 40%;
+    /*position: absolute;*/
+    position: relative;
+    padding-top:20%;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color:   rgb(216, 73, 101);
+    height: 25px;
+    width: 25px;
+}
+.try div>div{
+    border: 5px solid rgb(252, 142, 164);
+    border-radius: 40%;
+    /*position: absolute;*/
+    padding-top:30%;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color:   rgb(252, 142, 164);
+    height: 12px;
+    width: 12px;
+}
+.try div>div>div{
+    border: 5px solid rgb(252, 191, 142);
+    border-radius: 70%;
+    /*position: absolute;*/
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color:  rgb(252, 191, 142);
+    height: 3px;
+    width: 3px;
+}
+.stem{
+    position: relative;
+    left:50%;
+    margin-left: -3px;
+    border-left: 8px solid green;
+    height:150px;
+    /*margin-left:50px;*/
+}
+
+header{
+    display:flex;
+    font-family: 'Ultra', serif;
+    font-size: 20px;
+
+}
+
+.navigation li{
+    display:inline-block;
+    float:left;
+    padding-left: 20px;
+}
+
+li{
+    list-style-type: none;
+}
+.navigation ul a:hover{
+    color: pink;
+}
+
+.nav{
+    float: left;
+}
