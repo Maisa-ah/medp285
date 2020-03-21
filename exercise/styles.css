@@ -1,0 +1,38 @@
+body{
+	background-color: pink;
+	border:30px dashed IndianRed;
+}
+
+div{
+	border:20px dashed lavender;
+	margin: 100px;
+	padding: 40px;
+	background-color:IndianRed;
+	float:top;
+}
+
+div div{
+	background-color: white;
+	padding:10px;
+	margin:50px;
+	border: 80px solid lavender;
+}
+
+div div div{
+	background-color: black;
+	padding: 45%;
+}
+
+div + div{
+	float:top;
+	margin:10px;
+}
+
+
+div div div div{
+	background-color: black;
+	padding:100px;
+	margin:0px;
+	border: 40px solid white;
+}
+
