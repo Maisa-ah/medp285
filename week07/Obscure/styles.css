@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css?family=Martel&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Special+Elite&display=swap');
+
+html, body{
+   /* background-color: linear-gradient 
+   background: rgb(148,147,161);
+    background: linear-gradient(90deg, rgba(148,147,161,1) 0%, rgba(194,194,224,0.2182459677419355) 35%, rgba(0,212,255,1) 100%);
+    */
+    display: block;
+    background: rgb(148,147,161);
+   /* background: linear-gradient( rgba(148,147,161,1) 0%, rgba(154,154,187,0.2182459677419355) 35%, rgba(0,212,255,1) 100%);
+   */
+   background: linear-gradient(rgba(0,212,255,1) 0%, rgba(154,154,187,0.2182459677419355) 10%,  rgba(148,147,161,1) 100%);
+    font-family: 'Monoton', cursive;
+    font-size: 20px;
+}
+
+.six{
+    margin-right:100px;
+    font-family: 'Monoton', cursive;
+    font-size: 60px;
+}
+
+.story{
+    margin-top:100px;
+    font-family: 'Aldrich', sans-serif;
+    font-family: 'Special Elite', cursive;
+    font-size:20px;
+    padding-left: 40%;
+}
+
+.story a{
+    list-style-type: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+.s1 a:hover{
+    color: #C02E4C;
+}
+.s2 a:hover{
+    color: #6A1616;
+}
+.s3 a:hover{
+    color: rgb(35, 136, 70);
+}
+.s4 a:hover{
+    color: blue;
+}
+
+
+
+.rose{
+    color: #C02E4C;
+    text-align: center;
+    position: relative;
+    float:center;
+    bottom:650px;
+    left:250px;
+    margin-left:20px;
+
+}
+/*
+.rose span{
+    position: relative;
+    top: 5px;
+    padding-left:25px;
+}*/
+
+.shelf span{
+    color: white;
+    background-color: #6A1616;
+}
+
+#summer{
+    background-color: #31C565;
+}
+
+.lamp, .rose, .shelf, .summer, .alone{
+    /*padding: 25%;*/
+    /*margin: 30%;*/
+    margin: 0 auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    width: 470px;
+}
+
+.shelf{
+    margin: 40%;
+}
+
+.lamp span{
+    color: #31C565;
+}
+
+.lamp div{
+    /*margin-right: 735px;*/
+   
+    /*margin-right: 155px;*/
+    /*padding-right: 200px;*/
+    /*width: 460px;*/
+   
+
+    background: linear-gradient(rgba(0, 0, 0, 0.8) 50%, rgba(113, 112, 126, 0.8) 100%);
+}
+.summer{
+    padding: 320px 200px 200px 200px;
+
+    background: rgb(0,212,255);
+    background: linear-gradient(rgba(148,147,161,1) 50%, rgb(80, 107, 81) 83%, rgb(44, 70, 46) 100%);
+    text-align: center;
+}
+.summer span{
+
+    border: 100px solid rgb(240, 188, 153);
+    border-radius:50%;
+    position: relative;
+    right: 210px;
+    bottom: 200px;
+    color: rgb(211, 211, 197);
+    background-color:rgb(255,255,0, 0.1);
+}
+.alone{
+    position: relative;
+    bottom: 450px;
+    right: 50px;
+    text-align: center;
+    font-size:16px;
+}
+
+.alone span{
+    position: relative;
+    left: 250px;
+    bottom: 200px;
+    
+}
+
+h3{
+    position: relative;
+    padding-left: 1000px;
+    bottom: 800px;
+    
+}
+.helper{
+    padding:200px;
+}
+.try{
+    /*padding-right:15px;*/
+    float:center;
+    margin:50px;
+    border: 5px solid rgb(231, 211, 122);
+    border-radius: 43%;
+    /*position: absolute;*/
+    padding-bottom:5%;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color:  rgb(231, 211, 122);
+    height: 50px;
+    width: 50px;
+
+}
+.try div{
+    border: 5px solid rgb(233, 169, 127);
+    border-radius: 40%;
+    /*position: absolute;*/
+    position: relative;
+    padding-top:20%;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color:   rgb(233, 169, 127);
+    height: 25px;
+    width: 25px;
+}
+.try div>div{
+    border: 5px solid rgb(126, 32, 46);
+    border-radius: 40%;
+    /*position: absolute;*/
+    padding-top:30%;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color:   rgb(131, 31, 53);
+    height: 12px;
+    width: 12px;
+}
+.try div>div>div{
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 70%;
+    /*position: absolute;*/
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color:  rgb(0, 0, 0);
+    height: 3px;
+    width: 3px;
+}
+.stem{
+    position: relative;
+    left:50%;
+    margin-left: -3px;
+    border-left: 8px solid rgb(22, 158, 22);
+    height:150px;
+    /*margin-left:50px;*/
+}
+
+header{
+    display:flex;
+    font-family: 'Ultra', serif;
+    font-size: 20px;
+
+}
+/*
+.navigation ul{
+    display:inline-block;
+    padding-left: 20px;
+}
+
+.navigation ul a:hover{
+    color: pink;
+}*/
+
+nav{
+    list-style-type: none;
+    /*border: 10px solid black;*/
+    border-radius: 50px;
+    /*background-color: black;*/
+    width: 100%;
+    margin: 20px;
+    position:fixed;
+    z-index: 2;
+    font-size: 20px;
+    line-height: 60px;
+    padding: 10px 20px 10px 10px;
+  }
+
+
+nav li, nav li a{
+  display:inline-block;
+  color: #eaeaea;
+  /*padding-left: 50px;*/
+
+  text-decoration: none;
+}
+
+nav li a:hover{
+  color: rgb(218, 154, 154);
+  cursor: pointer;
+}
+
+nav li a:active{
+  color: #ff2e63;
+}
+
+
+
