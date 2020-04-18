@@ -44,9 +44,10 @@ and (orientation: portrait)
     .hidden2{
         display:flex !important;
         justify-content: center;
+        text-align: center;
         grid-row:1;
         margin: 30px;
-        width:400px;
+        width:430px;
     }
     .con{
         display: grid !important;
@@ -54,6 +55,7 @@ and (orientation: portrait)
     .shown2,.shown{
         width: 300px;
     }
+    ::selection { background-color:#f4cddd; }
 }
 
 
