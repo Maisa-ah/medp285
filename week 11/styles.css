@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+html{
+    background-color: #be8abf;
+    font-family: 'Courgette', cursive;
+    font-size: 0.9em;
+}
+
+/* Portrait*/
+@media only screen 
+and (max-device-width: 667px) /*size for iphone 6/7/8*/
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait)
+{
+    /*hidden element will be shown*/
+    html{
+        font-family: 'Patua One', cursive;
+        background-color: #ea9abb;
+    }
+    body{
+        margin: 5px;
+    }
+    h2{
+        font-size:2.3em;
+    }
+    #date{
+        display:none !important;
+    }
+    #short-text {
+        display: flex !important;
+        justify-content: center;
+        font-family: 'Merienda One', cursive;
+    }
+    .neg{
+        display: none;
+    }
+    .hidden{
+        display:flex !important;
+        justify-content: center;
+        width: 400px;
+    }
+    .hidden2{
+        display:flex !important;
+        justify-content: center;
+        grid-row:1;
+        margin: 30px;
+        width:400px;
+    }
+    .con{
+        display: grid !important;
+    }
+    .shown2,.shown{
+        width: 300px;
+    }
+}
+
+
+
+
+#short-text{ 
+    display: none; 
+    font-size: 3em;
+}
+
+/*desktop screen*/
+@media only screen and (max-width:800px){
+    html{
+        font-family: 'Patua One', cursive;
+        background-color: #ea9abb;
+    }
+    #short-text { display: flex; 
+    justify-content: center;
+    font-family: 'Merienda One', cursive;
+}
+    #date { display: none !important; }
+    .neg{
+        display: none;
+    }
+    .hidden{
+        display:flex !important;
+        justify-content: center;
+        width: 300px;
+    }
+    .hidden2{
+        display:flex !important;
+        justify-content: center;
+        grid-row:1;
+        margin: 20px;
+        width: 300px;
+    }
+    .con{
+        display: grid !important;
+    }
+}
+
+.shown{
+    color:#ea9abb;
+    animation: fade 10s;
+}
+.container{
+    display: grid;
+}
+
+.shown2{
+    color:#ea9abb;
+}
+.neg{
+    width: 400px;
+    height: auto;
+}
+
+
+#change, .neg,.shown2, .shown{
+    /*grid-column: 0;*/
+    grid-row:1;
+    padding: 10px;
+}
+
+
+/* hidden poem element*/
+.hidden{
+    color: #be8abf;
+   /* padding:50px 50px 0px 50px;*/
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    display: none;
+}
+
+.hidden2{
+    color: #be8abf;
+    /* padding:50px 50px 0px 50px;*/
+    align-content: center;
+    display: none;
+}
+
+
+
+/*date element at top of page*/
+#date{
+    margin-top:50px;
+    display: flex;
+    justify-content: center;
+    font-size:1.5em;
+   /* animation: mymove 5s infinite;*/
+}
+
+
+
+::selection { background-color:#f4cddd; }
+
+/*
+aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+}*/
+/*
+#date:hover{
+    cursor: pointer;
+    opacity: 1;
+    transform: rotate(45deg) scale(1.25);
+    transition: all 0.3s ease-in-out;
+}*/
+/*
+@keyframes mymove {
+    0%   {top: 0px; background:#ea9abb; width: 100px;}
+    100% {top: 200px; background: yellow; width: 300px;}
+  }
+*/
+@keyframes fade {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+    
+  }

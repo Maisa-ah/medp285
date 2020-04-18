@@ -1,0 +1,81 @@
+html{
+    background-color: #be8abf;
+}
+
+/* Portrait*/
+@media only screen 
+and (max-device-width: 667px) /*size for iphone 6/7/8*/
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait)
+{
+    /*hidden element will be shown*/
+    html{
+        background-color: #ea9abb;
+    }
+    h2{
+        font-size:2.5em;
+    }
+    h3{
+        font-size: 2.5em;
+    }
+}
+
+/*desktop screen*/
+@media only screen and (max-width:800px){
+    html{
+        background-color: #ea9abb;
+    }
+}
+
+.shown{
+    color:#ea9abb;
+}
+.container{
+    display: grid;
+}
+
+.shown2{
+    color:#ea9abb;
+}
+
+.hidden, .shown2, .shown{
+    grid-column: 0;
+    grid-row:1;
+}
+
+
+/* hidden poem element*/
+.hidden{
+    color: #be8abf;
+    padding:50px 50px 0px 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+/*date element at top of page*/
+#date{
+    margin-top:50px;
+    display: flex;
+    justify-content: center;
+    font-size:1.5em;
+}
+
+
+@media (any-hover: hover) {
+    a:hover {
+      background: yellow;
+    }
+}
+
+::selection { background-color:#f1cbdb; }
+
+/*
+aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+}*/

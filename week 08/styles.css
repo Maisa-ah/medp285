@@ -1,0 +1,41 @@
+html{
+    background-color: #be8abf;
+}
+
+/* Portrait*/
+@media only screen 
+and (max-device-width: 667px) /*size for iphone 6/7/8*/
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait)
+{
+    /*hidden element will be shown*/
+    html{
+        background-color: #ea9abb;
+    }
+    h2{
+        font-size:3em;
+    }
+}
+
+/* hidden poem element*/
+.hidden{
+    color: #be8abf;
+    padding:100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+/*date element at top of page*/
+#date{
+    margin-top:50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media (any-hover: hover) {
+    a:hover {
+      background: yellow;
+    }
+}
