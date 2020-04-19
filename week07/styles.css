@@ -7,7 +7,6 @@ html, body{
    background: rgb(148,147,161);
     background: linear-gradient(90deg, rgba(148,147,161,1) 0%, rgba(194,194,224,0.2182459677419355) 35%, rgba(0,212,255,1) 100%);
     */
-    position: fixed;
     top:0;
     bottom:0;
     left:0;
