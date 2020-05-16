@@ -1,0 +1,36 @@
+body{
+    font-size: 1.1em;
+    background-color: #FFFFFF;
+}
+/*styles links on projects page*/
+a{
+    width: 100px;
+    padding:0.3em 1.2em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-weight:300;
+    color:#FFFFFF;
+    background-color:#ab93c9;
+    text-align:center;
+    transition: all 0.2s;
+    }
+a:hover{
+    cursor: pointer;
+    background-color: #eda1ab;
+  }
+.center{
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.margin{
+    align-self: center;
+    justify-content: center;
+}
+h4, h5{
+    position: relative;
+    right: 200px;
+}
